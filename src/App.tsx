@@ -1,16 +1,21 @@
 import React from 'react';
 
-import Header from './components/Header';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { ThemeProvider } from 'styled-components';
 
+import Header from './components/Header';
+import * as themes from './styles/themes';
 import GlobalStyles from './styles/global';
 
 const App: React.FC = () => {
   return (
-    <>
-      <Header />
+    <ThemeProvider theme={themes.light}>
+      <Router>
+        <Header />
 
-      <GlobalStyles />
-    </>
+        <GlobalStyles />
+      </Router>
+    </ThemeProvider>
   );
 };
 
