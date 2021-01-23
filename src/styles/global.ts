@@ -4,12 +4,14 @@ export default createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
+    outline: 0;
   }
 
   html {
     font-size: 62.5%;
     height: 100%;
+    overflow-x: hidden;
 
     @media (min-width: 1981px) {
       font-size: 80%;
@@ -19,7 +21,7 @@ export default createGlobalStyle`
   body {
     height: auto;
     background: ${({ theme }) => theme.colors.background};
-    color: ${({ theme }) => theme.colors.gray}
+    color: ${({ theme }) => theme.colors.gray};
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
   }
