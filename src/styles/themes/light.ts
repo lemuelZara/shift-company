@@ -23,6 +23,7 @@ export default {
     vertical: '1.6rem 0',
     horizontal: '0 1.6rem',
     large: '2.4rem',
+    small: '1.2rem',
   },
   transition: {
     default: '180ms ease-in-out',
