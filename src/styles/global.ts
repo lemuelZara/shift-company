@@ -10,11 +10,16 @@ export default createGlobalStyle`
   html {
     font-size: 62.5%;
     height: 100%;
+
+    @media (min-width: 1981px) {
+      font-size: 80%;
+    }
   }
 
   body {
     height: auto;
-    background: #f9faff;
+    background: ${({ theme }) => theme.colors.background};
+    color: ${({ theme }) => theme.colors.gray}
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
   }
