@@ -4,14 +4,16 @@ import { motion } from 'framer-motion';
 
 export const AnimatedNav = styled(motion.nav)`
   height: 6rem;
-  width: auto;
+  max-width: 114rem;
+  width: 100%;
+  margin: 2rem auto;
 
   display: flex;
   align-items: center;
-  margin: ${({ theme }) => theme.spacing.large};
 
   @media screen and (max-width: 768px) {
     height: 4rem;
+    width: 90%;
     display: flex;
     justify-content: space-between;
   }
