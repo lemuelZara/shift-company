@@ -1,15 +1,20 @@
-import React from 'react';
+import React, { memo } from 'react';
 
 import Navbar from './Navbar';
 
-import { Container } from './styles';
+import { AnimatedContainer } from './styles';
+import { CONTAINER_ANIMATION } from './animations';
 
 const Header: React.FC = () => {
   return (
-    <Container>
+    <AnimatedContainer
+      variants={CONTAINER_ANIMATION}
+      initial="unMounted"
+      animate="mounted"
+    >
       <Navbar />
-    </Container>
+    </AnimatedContainer>
   );
 };
 
-export default Header;
+export default memo(Header);

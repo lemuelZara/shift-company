@@ -4,7 +4,7 @@ import { FiUser, FiPhoneCall, FiHeadphones } from 'react-icons/fi';
 import { FaBars } from 'react-icons/fa';
 
 import {
-  Nav,
+  AnimatedNav,
   Logo,
   MenuBars,
   RightNavMenu,
@@ -12,13 +12,14 @@ import {
   NavMenuLinks,
   NavButtons,
 } from './styles';
+import { NAV_ANIMATION } from './animations';
 
 import ShiftLogoWhite from '../../../assets/images/shift_white.png';
 import { menuData } from '../../../data/menuData';
 
 const Navbar: React.FC = () => {
   return (
-    <Nav>
+    <AnimatedNav variants={NAV_ANIMATION} initial="unMounted" animate="mounted">
       <Logo to="/">
         <img src={ShiftLogoWhite} srcSet={ShiftLogoWhite} alt="Logo" />
       </Logo>
@@ -50,7 +51,7 @@ const Navbar: React.FC = () => {
           </button>
         </NavButtons>
       </RightNavMenu>
-    </Nav>
+    </AnimatedNav>
   );
 };
 

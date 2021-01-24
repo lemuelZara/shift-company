@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
-export const Nav = styled.nav`
+export const AnimatedNav = styled(motion.nav)`
   height: 6rem;
   width: auto;
 
@@ -36,6 +37,7 @@ export const RightNavMenu = styled.div`
   flex: 1;
 
   margin-left: 1rem;
+  font-size: ${({ theme }) => theme.fontSizes.default};
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -50,10 +52,11 @@ export const NavMenu = styled.div`
 export const NavMenuLinks = styled(Link)`
   color: ${({ theme }) => theme.colors.label};
 
-  display: flex;
-  align-items: center;
   padding: ${({ theme }) => theme.spacing.horizontal};
   height: 100%;
+
+  display: flex;
+  align-items: center;
 `;
 
 export const NavButtons = styled.div`
