@@ -20,7 +20,7 @@ export default createGlobalStyle`
 
   body {
     height: auto;
-    background: ${({ theme }) => theme.colors.background};
+    background: rgba(249, 250, 255);
     color: ${({ theme }) => theme.colors.gray};
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
