@@ -4,7 +4,7 @@ import { IoMdArrowRoundForward } from 'react-icons/io';
 import { IoArrowForward, IoArrowBack } from 'react-icons/io5';
 
 export const Container = styled.section`
-  height: 80vh;
+  height: 85vh;
   position: relative;
   overflow: hidden;
 `;
@@ -47,7 +47,7 @@ export const HeroSlider = styled(motion.div)`
     left: 0;
     overflow: hidden;
     opacity: 0.8;
-    background: #023e8a;
+    background: ${({ theme }) => theme.colors.primaryDark};
   }
 `;
 
@@ -123,7 +123,7 @@ const arrowButtons = css`
   transition: ${({ theme }) => theme.transition.default};
 
   &:hover {
-    background: ${({ theme }) => theme.colors.primaryDark};
+    background: ${({ theme }) => theme.colors.primary};
   }
 `;
 
