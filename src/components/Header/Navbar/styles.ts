@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
 export const AnimatedNav = styled(motion.nav)`
-  height: 6rem;
+  height: 5rem;
   max-width: 114rem;
   width: 100%;
   margin: 2rem auto;
