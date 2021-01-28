@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import styled from 'styled-components';
 
 export const Container = styled.div`
@@ -21,7 +22,7 @@ export const Content = styled.div`
   }
 `;
 
-export const HeaderContent = styled.section`
+export const HeaderContent = styled(motion.section)`
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -66,33 +67,5 @@ export const SectionContent = styled.section`
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
-  }
-`;
-
-export const Card = styled.div`
-  display: flex;
-  flex-direction: column;
-
-  border-radius: ${({ theme }) => theme.radii.large};
-  background: ${({ theme }) => theme.colors.background};
-  box-shadow: ${({ theme }) => theme.shadows.default};
-  padding: ${({ theme }) => theme.spacing.extraLarge};
-
-  > svg {
-    color: ${({ theme }) => theme.colors.primary};
-  }
-
-  > h3 {
-    color: ${({ theme }) => theme.colors.primary};
-    margin: ${({ theme }) => theme.spacing.vertical};
-  }
-
-  > p {
-    color: ${({ theme }) => theme.colors.lightGray};
-  }
-
-  @media screen and (max-width: 768px) {
-    align-items: center;
-    text-align: center;
   }
 `;
