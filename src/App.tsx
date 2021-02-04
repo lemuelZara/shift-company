@@ -5,19 +5,13 @@ import { ThemeProvider } from 'styled-components';
 
 import * as themes from './styles/themes';
 import GlobalStyles from './styles/global';
-import Header from './components/Header';
-import HeroImageSlider from './components/HeroImageSlider';
-import { sliderData } from './data/sliderData';
-import MainContent from './pages/MainContent';
+import Routes from './routes';
 
 const App: React.FC = () => {
   return (
     <ThemeProvider theme={themes.light}>
       <Router>
-        <Header />
-        <HeroImageSlider slides={sliderData} />
-
-        <MainContent />
+        <Routes />
 
         <GlobalStyles />
       </Router>
