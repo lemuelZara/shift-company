@@ -26,6 +26,7 @@ export default {
     horizontal: '0 1.6rem',
     large: '2.4rem',
     extraLarge: '4rem',
+    extraLargeVertical: '4rem 0',
     small: '1.2rem',
   },
   transition: {
