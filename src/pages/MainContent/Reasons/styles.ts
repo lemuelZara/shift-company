@@ -7,7 +7,7 @@ export const Container = styled.section`
 
   display: flex;
   justify-content: center;
-  margin-top: 20rem;
+  margin-top: 16rem;
 
   background: ${({ theme }) => theme.colors.primaryDark};
 `;
@@ -15,7 +15,7 @@ export const Container = styled.section`
 export const Content = styled(motion.div)`
   width: 100%;
   max-width: 104rem;
-  padding: ${({ theme }) => theme.spacing.largeVertical};
+  padding: ${({ theme }) => theme.spacing.extraLargeVertical};
 
   display: flex;
   flex-direction: column;
@@ -32,10 +32,14 @@ export const HeaderContent = styled.header`
   align-items: center;
 
   margin: ${({ theme }) => theme.spacing.largeVertical};
+
+  > h2 {
+    font-size: ${({ theme }) => theme.fontSizes.extraLarge};
+  }
 `;
 
 export const ContentOption = styled(motion.div)`
-  margin-top: 2rem;
+  margin: 2.4rem 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
