@@ -1,13 +1,22 @@
 import React from 'react';
 
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { Switch, Route, useLocation } from 'react-router-dom';
+import { AnimatePresence } from 'framer-motion';
+
 import MainContent from '../pages/MainContent';
+import Post from '../pages/MainContent/Blog/Post';
 
 const Routes: React.FC = () => {
+  const location = useLocation();
+  const { pathname } = location;
+
   return (
-    <Router>
-      <Route path="/" component={MainContent} />
-    </Router>
+    <AnimatePresence initial exitBeforeEnter>
+      <Switch location={location} key={pathname}>
+        <Route path="/" component={MainContent} exact />
+        <Route path="/blog/post/:id" component={Post} exact />
+      </Switch>
+    </AnimatePresence>
   );
 };
 
