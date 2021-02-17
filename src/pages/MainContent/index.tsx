@@ -3,6 +3,7 @@ import React from 'react';
 import Header from '../../components/Header';
 import HeroImageSlider from '../../components/HeroImageSlider';
 import { sliderData } from '../../data/sliderData';
+import Blog from './Blog';
 
 import Numbers from './Numbers';
 import Reasons from './Reasons';
@@ -18,6 +19,7 @@ const MainContent: React.FC = () => {
         <Services />
         <Reasons />
         <Numbers />
+        <Blog />
       </main>
     </>
   );
