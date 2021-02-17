@@ -4,18 +4,25 @@ import { Link } from 'react-router-dom';
 import ProgressiveImage from 'react-progressive-image';
 
 import { Container, Content, Image, Title } from './styles';
-import { IMAGE_ANIMATION, CONTAINER_ANIMATION } from './animations';
+import { IMAGE_ANIMATION } from './animations';
 
 interface Post {
   id: number;
   title: string;
   image: string;
-  description: string;
 }
 
-const Article: React.FC<Post> = ({ id, title, image, description }) => {
+const Article: React.FC<Post> = ({ id, title, image }) => {
   return (
-    <Container key={id} variants={CONTAINER_ANIMATION} exit="unMounted">
+    <Container
+      exit={{
+        opacity: 0,
+      }}
+      transition={{
+        duration: 0.6,
+        ease: [0.43, 0.13, 0.23, 0.96],
+      }}
+    >
       <Content>
         <Link to={`/blog/post/${id}`}>
           <ProgressiveImage src={image} placeholder={image}>
@@ -30,9 +37,7 @@ const Article: React.FC<Post> = ({ id, title, image, description }) => {
           </ProgressiveImage>
         </Link>
       </Content>
-      <Title variants={CONTAINER_ANIMATION} exit="unMounted">
-        {title}
-      </Title>
+      <Title>{title}</Title>
     </Container>
   );
 };
