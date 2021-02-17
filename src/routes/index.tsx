@@ -11,12 +11,16 @@ const Routes: React.FC = () => {
   const { pathname } = location;
 
   return (
-    <AnimatePresence initial exitBeforeEnter>
-      <Switch location={location} key={pathname}>
-        <Route path="/" component={MainContent} exact />
-        <Route path="/blog/post/:id" component={Post} exact />
-      </Switch>
-    </AnimatePresence>
+    <Route
+      render={() => (
+        <AnimatePresence initial exitBeforeEnter>
+          <Switch location={location} key={pathname}>
+            <Route path="/" exact render={() => <MainContent />} />
+            <Route path="/blog/post/:id" exact render={() => <Post />} />
+          </Switch>
+        </AnimatePresence>
+      )}
+    />
   );
 };
 
