@@ -7,7 +7,7 @@ export const NAV_ANIMATION = {
     y: 0,
     opacity: 1,
     transition: {
-      duration: 1.8,
+      duration: 1.3,
       ease: 'easeInOut',
     },
   },
