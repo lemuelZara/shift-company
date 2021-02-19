@@ -69,7 +69,7 @@ export const HeroContent = styled.div`
   z-index: 10;
   display: flex;
   flex-direction: column;
-  max-width: 112rem;
+  max-width: 104rem;
   margin-top: 6rem;
   text-align: center;
 

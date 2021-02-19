@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export const AnimatedNav = styled(motion.nav)`
   height: 5rem;
-  max-width: 114rem;
+  max-width: 104rem;
   width: 100%;
   margin: 2rem auto;
 
