@@ -13,7 +13,7 @@ const Routes: React.FC = () => {
   return (
     <Route
       render={() => (
-        <AnimatePresence initial exitBeforeEnter>
+        <AnimatePresence exitBeforeEnter>
           <Switch location={location} key={pathname}>
             <Route path="/" exact render={() => <MainContent />} />
             <Route path="/blog/post/:id" exact render={() => <Post />} />
