@@ -8,7 +8,11 @@ export const AnimatedContainer = styled(motion.div)`
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: 20rem;
+  margin-top: 16rem;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 10rem;
+  }
 `;
 
 export const ContentPost = styled(motion.div)`
@@ -17,7 +21,7 @@ export const ContentPost = styled(motion.div)`
   justify-content: center;
 
   width: 100%;
-  max-width: 114rem;
+  max-width: 104rem;
   margin: 4rem auto;
   text-align: center;
 
@@ -88,7 +92,7 @@ export const AnimatedImage = styled(motion.div)`
 
 export const Description = styled.div`
   width: 100%;
-  max-width: 114rem;
+  max-width: 104rem;
 
   margin: 4rem auto;
 
