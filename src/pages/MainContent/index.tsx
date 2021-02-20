@@ -9,6 +9,7 @@ import Reasons from './Reasons';
 import Numbers from './Numbers';
 import Blog from './Blog';
 import Contact from './Contact';
+import Footer from '../../components/Footer';
 
 const MainContent: React.FC = () => {
   return (
@@ -23,6 +24,8 @@ const MainContent: React.FC = () => {
         <Blog />
         <Contact />
       </main>
+
+      <Footer />
     </>
   );
 };
