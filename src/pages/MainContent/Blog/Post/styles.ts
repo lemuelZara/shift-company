@@ -91,14 +91,18 @@ export const AnimatedImage = styled(motion.div)`
 `;
 
 export const Description = styled.div`
+  background: ${({ theme }) => theme.colors.background};
   width: 100%;
-  max-width: 104rem;
+  padding-bottom: 8rem;
 
-  margin: 4rem auto;
-
-  > p {
-    margin-bottom: 2rem;
-    text-align: justify;
+  > div {
+    margin: 4rem auto;
+    max-width: 104rem;
+    > p {
+      margin-bottom: 2rem;
+      text-align: justify;
+      color: ${({ theme }) => theme.colors.darkGray};
+    }
   }
 
   @media screen and (max-width: 768px) {
