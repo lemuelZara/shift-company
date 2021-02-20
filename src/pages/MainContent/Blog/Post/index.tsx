@@ -23,6 +23,7 @@ import {
   INFO_ANIMATION,
 } from './animations';
 import { postData } from '../../../../data/postData';
+import Footer from '../../../../components/Footer';
 
 interface Post {
   id: number;
@@ -81,12 +82,15 @@ const Post: React.FC = () => {
           <motion.img src={postItem?.image} alt="" style={{ scale }} />
         </AnimatedImage>
         <Description>
-          <p>{postItem?.description}</p>
-          <p>{postItem?.description}</p>
-          <p>{postItem?.description}</p>
-          <p>{postItem?.description}</p>
+          <div>
+            <p>{postItem?.description}</p>
+            <p>{postItem?.description}</p>
+            <p>{postItem?.description}</p>
+            <p>{postItem?.description}</p>
+          </div>
         </Description>
       </Content>
+      <Footer />
     </AnimatedContainer>
   );
 };
