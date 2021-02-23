@@ -16,6 +16,7 @@ export const Content = styled.div`
   width: 100%;
   max-width: 104rem;
   padding: ${({ theme }) => theme.spacing.extraLargeVertical};
+  margin: auto 4rem;
 
   display: flex;
   flex-direction: column;

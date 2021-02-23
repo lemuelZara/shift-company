@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
 export const Container = styled.footer`
+  width: 100%;
+  display: flex;
+  justify-content: center;
   background: ${({ theme }) => theme.colors.primaryDark};
   color: ${({ theme }) => theme.colors.gray};
   font-size: ${({ theme }) => theme.fontSizes.default};
@@ -9,8 +12,8 @@ export const Container = styled.footer`
 export const Content = styled.div`
   width: 100%;
   max-width: 104rem;
-  margin: 4rem auto;
-  padding: 0 4rem;
+  padding: ${({ theme }) => theme.spacing.extraLargeVertical};
+  margin: auto 4rem;
 
   display: flex;
   justify-content: space-between;

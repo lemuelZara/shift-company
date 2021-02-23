@@ -13,6 +13,7 @@ export const Content = styled.div`
   max-width: 104rem;
   background: ${({ theme }) => theme.colors.primaryDark};
   padding: ${({ theme }) => theme.spacing.extraLarge};
+  margin: auto 4rem;
   border-radius: ${({ theme }) => theme.radii.large};
 
   display: flex;

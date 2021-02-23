@@ -12,11 +12,12 @@ export const Container = styled.div`
 export const Content = styled.div`
   width: 100%;
   max-width: 104rem;
+  margin: auto 4rem;
 
   display: flex;
   gap: 4rem;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     flex-direction: column;
     margin: auto 4rem;
   }
@@ -47,7 +48,7 @@ export const HeaderContent = styled(motion.section)`
     margin-top: 2rem;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     text-align: center;
     align-items: center;
 

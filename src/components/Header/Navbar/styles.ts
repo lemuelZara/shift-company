@@ -11,7 +11,7 @@ export const AnimatedNav = styled(motion.nav)`
   display: flex;
   align-items: center;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1080px) {
     height: 4rem;
     width: 90%;
     display: flex;
@@ -28,7 +28,7 @@ export const Logo = styled(Link)`
 export const MenuBars = styled.div`
   display: none;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1080px) {
     display: block;
   }
 `;
@@ -41,7 +41,7 @@ export const RightNavMenu = styled.div`
   margin-left: 1rem;
   font-size: ${({ theme }) => theme.fontSizes.default};
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1080px) {
     display: none;
   }
 `;

@@ -18,6 +18,7 @@ export const Content = styled.div`
   width: 100%;
   max-width: 104rem;
   padding: ${({ theme }) => theme.spacing.largeVertical};
+  margin: auto 4rem;
 
   display: flex;
   flex-direction: column;
@@ -60,7 +61,7 @@ export const GridOptions = styled.div`
   justify-content: center;
   align-items: center;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     display: flex;
     flex-direction: column;
   }
