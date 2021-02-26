@@ -2,6 +2,7 @@
   "name": "redesign-shift",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lemuelzara.github.io/shift-company/",
   "dependencies": {
     "@react-hook/window-size": "^3.0.7",
     "framer-motion": "^3.2.2-rc.1",
@@ -21,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
