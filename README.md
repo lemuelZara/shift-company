@@ -10,11 +10,11 @@
   <img alt="React Logo" src="https://img.shields.io/badge/React.js-v17.0.1-006494?logo=react">&nbsp;&nbsp;
   <img alt="Framer Motion Logo" src="https://img.shields.io/badge/Framer%20Motion-v3.2.2-006494?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAAaUlEQVR42s3VwREAIQhDUUtP59iACjvvspyZr0JM1vpVVWpUjOBb8EN4FjxO3ggvlXXB0rq3nypfzitEXMceBUwRT/lFARNE+w2jgA4xsqMo4IU4CZdtlZ2ZzZ3zgSOGU4qDjrOS47br2OZryGNFM/VEAAAAAElFTkSuQmCC">&nbsp;&nbsp;
   <img alt="Styled Components" src="https://img.shields.io/badge/Styled%20Components-v5.2.1-006494?logo=styled-components">&nbsp;&nbsp;
-  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/lemuelzara/shift.svg?logo=typescript">
+  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/lemuelzara/shift-company.svg?logo=typescript">
   <img alt="">
 </p>
 
-<h4 align="center">Um projeto construído para criar uma novo design para o website da empresa Shift.
+<h4 align="center">Um projeto desenvolvido com o intuito de criar um novo design para o website da empresa Shift.
 </h4>
 
 <br>
