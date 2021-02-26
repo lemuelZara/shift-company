@@ -5,6 +5,7 @@
   "dependencies": {
     "@react-hook/window-size": "^3.0.7",
     "framer-motion": "^3.2.2-rc.1",
+    "gh-pages": "^3.1.0",
     "popmotion": "^9.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
