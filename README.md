@@ -28,6 +28,13 @@
   <img src=".github/screen.png">
 </p>
 
+<p align="center">
+  <a href="https://shift-redesign.netlify.app/" target="_blank">
+    <br>
+    <img alt="Demo on Netlify" width="200" src="https://api.netlify.com/api/v1/badges/5e4290fb-36e9-4f48-aaac-359a25ba7d85/deploy-status">
+  </a>
+</p>
+
 <br>
 
 ## :rocket: Tecnologias
