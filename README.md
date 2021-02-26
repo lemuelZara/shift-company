@@ -20,8 +20,8 @@
 <br>
 
 <p align="center">
-  <a href="#rocket-technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="memo-license">Licença</a>
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
 </p>
 
 <p align="center">
@@ -47,6 +47,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 [vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 [vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 [vcprettier]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+
+<br>
+
+## :memo: Licença
+
+Este projeto está sob a licença do MIT. Consulte a [LICENÇA](https://github.com/lemuelzara/shift-company/blob/main/LICENSE) para obter mais informações.
 
 <br>
 
