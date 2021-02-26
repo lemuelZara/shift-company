@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Header from '../../components/Header';
-import HeroImageSlider from '../../components/HeroImageSlider';
 import { sliderData } from '../../data/sliderData';
 
+import Header from '../../components/Header';
+import HeroImageSlider from '../../components/HeroImageSlider';
 import Services from './Services';
 import Reasons from './Reasons';
 import Numbers from './Numbers';

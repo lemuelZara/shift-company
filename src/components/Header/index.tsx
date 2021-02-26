@@ -1,9 +1,9 @@
 import React, { memo, useState } from 'react';
-import Dropdown from '../Dropdown';
-
-import Navbar from './Navbar';
 
 import { AnimatedContainer } from './styles';
+
+import Dropdown from '../Dropdown';
+import Navbar from './Navbar';
 
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);

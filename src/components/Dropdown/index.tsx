@@ -1,9 +1,9 @@
 import React from 'react';
 
 import { FiX } from 'react-icons/fi';
-import { menuData } from '../../data/menuData';
 
 import { DropdownContainer, Icon, DropdownLink } from './styles';
+import { menuData } from '../../data/menuData';
 
 interface DropdownProps {
   setIsOpen: () => void;

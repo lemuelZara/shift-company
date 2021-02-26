@@ -7,6 +7,7 @@ import { FiArrowDown } from 'react-icons/fi';
 import { Container, Content, HeaderContent, SectionContent } from './styles';
 import { HEADER_CONTENT_ANIMATION } from './animations';
 import { servicesData } from '../../../data/servicesData';
+
 import Card from '../../../components/Card';
 
 const Services: React.FC = () => {

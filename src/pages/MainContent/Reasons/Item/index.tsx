@@ -1,8 +1,8 @@
 import React, { Dispatch, SetStateAction } from 'react';
 
 import { FiX } from 'react-icons/fi';
-
 import { IconBaseProps } from 'react-icons/lib';
+
 import {
   Overlay,
   Card,

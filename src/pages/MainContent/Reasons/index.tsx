@@ -3,8 +3,9 @@ import React, { useState } from 'react';
 import { AnimatePresence, AnimateSharedLayout } from 'framer-motion';
 
 import { Container, HeaderContent, Content, ContentOption } from './styles';
-import CardItem from './CardItem';
 import { optionsData } from '../../../data/optionsData';
+
+import CardItem from './CardItem';
 import Item from './Item';
 
 const Reasons: React.FC = () => {

@@ -1,8 +1,8 @@
 import React from 'react';
 
-import ShiftGif from '../../../assets/images/shift.gif';
-import { CARD_ANIMATION } from './animations';
 import { Container, Content, Header, GridOptions, Card } from './styles';
+import { CARD_ANIMATION } from './animations';
+import ShiftGif from '../../../assets/images/shift.gif';
 
 const Numbers: React.FC = () => {
   return (

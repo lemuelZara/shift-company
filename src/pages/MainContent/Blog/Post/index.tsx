@@ -5,7 +5,6 @@ import { FiCalendar } from 'react-icons/fi';
 import { useWindowWidth } from '@react-hook/window-size';
 import { motion, useViewportScroll, useTransform } from 'framer-motion';
 
-import Header from '../../../../components/Header';
 import {
   AnimatedContainer,
   Content,
@@ -23,6 +22,7 @@ import {
   INFO_ANIMATION,
 } from './animations';
 import { postData } from '../../../../data/postData';
+import Header from '../../../../components/Header';
 import Footer from '../../../../components/Footer';
 
 interface Post {
