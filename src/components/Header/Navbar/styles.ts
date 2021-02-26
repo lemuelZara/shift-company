@@ -25,11 +25,26 @@ export const Logo = styled(Link)`
   }
 `;
 
+export const Background = styled(motion.div)`
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+`;
+
 export const MenuBars = styled.div`
   display: none;
 
   @media screen and (max-width: 1080px) {
     display: block;
+  }
+`;
+
+export const NavMenuResponsive = styled(motion.div)`
+  @media screen and (max-width: 1080px) {
+    display: none;
   }
 `;
 

@@ -13,18 +13,21 @@ import {
   NavButtons,
 } from './styles';
 import { NAV_ANIMATION } from './animations';
-
 import ShiftLogoWhite from '../../../assets/images/shift_white.png';
 import { menuData } from '../../../data/menuData';
 
-const Navbar: React.FC = () => {
+interface NavbarProps {
+  setIsOpen: () => void;
+}
+
+const Navbar: React.FC<NavbarProps> = ({ setIsOpen }) => {
   return (
     <AnimatedNav variants={NAV_ANIMATION} initial="unMounted" animate="mounted">
       <Logo to="/">
         <img src={ShiftLogoWhite} srcSet={ShiftLogoWhite} alt="Logo" />
       </Logo>
 
-      <MenuBars>
+      <MenuBars onClick={setIsOpen}>
         <FaBars size={25} />
       </MenuBars>
 
