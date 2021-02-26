@@ -2,7 +2,6 @@
   "name": "redesign-shift",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lemuelzara.github.io/shift-company/",
   "dependencies": {
     "@react-hook/window-size": "^3.0.7",
     "framer-motion": "^3.2.2-rc.1",
