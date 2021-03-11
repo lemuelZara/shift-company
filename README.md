@@ -62,7 +62,17 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 **Desktop**
 
+<a href=".github/lighthouse-desktop.html" target="_blank">
+  <img alt="Desktop" src=".github/desktop-lighthouse.png">
+</a>
+
+<br>
+
 **Mobile**
+
+<a href=".github/lighthouse-mobile.html" target="_blank">
+  <img alt="Mobile" src=".github/lighthouse-mobile.png">
+</a>
 
 <br>
 
