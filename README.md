@@ -21,7 +21,7 @@
 
 <p align="center">
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#mag-lighthouse">Lighthouse Report</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#mag-lighthouse-reports">Lighthouse Reports</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -66,6 +66,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
   <img alt="Desktop" src=".github/desktop-lighthouse.png">
 </a>
 
+<br>
 <br>
 
 **Mobile**
