@@ -21,6 +21,7 @@
 
 <p align="center">
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-lighthouse">Lighthouse Report</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -54,6 +55,14 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 [vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 [vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 [vcprettier]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+
+<br>
+
+## :mag: Lighthouse Reports
+
+**Desktop**
+
+**Mobile**
 
 <br>
 
